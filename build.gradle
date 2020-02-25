@@ -20,6 +20,8 @@ repositories {
 }
 
 ext {
+	// Problem with M9 Dependencies in year 2018 -> https://github.com/spring-cloud/spring-cloud-openfeign/issues/13
+	// set springCloudVersion to Finchley.M8? If the problem occurs?
 	set('springCloudVersion', "Hoxton.SR1")
 }
 
